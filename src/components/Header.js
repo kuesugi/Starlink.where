@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import logo from "../assets/images/starlink_logo.svg";
+import logo from "../assets/images/starlink_logo.png";
 
 class Header extends Component {
     render() {
@@ -7,7 +7,7 @@ class Header extends Component {
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
                 <p className="title">
-                    Starlink.where
+                    STARLINK.<span className="title-where">&lt;where&gt;</span>
                 </p>
             </header>
         );

@@ -5,6 +5,7 @@ class Main extends Component {
     render() {
         return (
             <div className='main'>
+                <hr/>
                 <div className="left-side">
                     <SatSetting/>
                 </div>

@@ -3,6 +3,12 @@
     height: 780px;
 }
 
+hr {
+    border-top: 5px solid #63afd0;
+    margin: 0 auto;
+    /*width: 80%;*/
+}
+
 .left-side {
     position: absolute;
     top: 0;
