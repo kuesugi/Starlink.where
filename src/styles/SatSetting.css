@@ -9,7 +9,7 @@
 }
 
 .setting-label {
-    color: #777;
+    color: #555;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -58,10 +58,16 @@
     margin-top: 2px;
 }
 
-.show-nearby-btn {
+.show-nearby-btn, .ant-btn:focus {
     text-transform: none;
     padding: 10px 22px;
-    background-color: #2bb673;
+    background-color: #63afd0;
     font-size: 1em;
     color: #fff;
+}
+
+.ant-btn:hover {
+    background-color: #345b6d;
+    color: #fff;
+    border-color: #345b6d;
 }
